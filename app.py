@@ -1,3 +1,5 @@
+pip install --upgrade tensorflow==2.3.1
+
 import tensorflow
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.layers import GlobalMaxPooling2D
