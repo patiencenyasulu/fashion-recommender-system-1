@@ -28,7 +28,7 @@ def extract_features(img_path,model):
     normalized_result = result / norm(result)
 
     return normalized_result
-
+path = '/content/drive/MyDrive/images'
 filenames = []
 
 for file in os.listdir('images'):
